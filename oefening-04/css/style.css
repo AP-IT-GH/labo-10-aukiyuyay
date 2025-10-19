@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    height: 100vh;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    box-shadow: rgba(218, 212, 212, 0.751) 0px 0px 3px 2px;
+    border-radius: 8px;
+    font-size: 2rem;
+    transition-duration: 0.5s;
+}
+
+.box1:hover{
+    transform: translateX(-1em);
+    transition-duration: 0.5s;
+}
+.box2:hover{
+    transform: translateY(-1em);
+    transition-duration: 0.5s;
+}
+.box3:hover{
+    transform: translateX(1em);
+    transition-duration: 0.5s;
+}
